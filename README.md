@@ -1,0 +1,2 @@
+# SIMPRE-PROIECT-CC
+Proiect Cloud Computeing SIMPRE ASE 2024
