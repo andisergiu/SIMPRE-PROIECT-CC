@@ -109,9 +109,8 @@ if (strlen($_SESSION['etmsaid']==0)) {
                                  <div>
                                      <?php 
                                   
-                        $sql3 ="SELECT * from  tbltask where Status='Inprogress'";
+                        $sql3 ="SELECT * from tbltask where Status='Inprogress'";
                               $query3 = $dbh -> prepare($sql3);
-                              $query3-> bindParam(':eid', $eid, PDO::PARAM_STR);
                               $query3->execute();
                               $results3=$query3->fetchAll(PDO::FETCH_OBJ);
                               $inprotask=$query3->rowCount();
@@ -135,7 +134,6 @@ if (strlen($_SESSION['etmsaid']==0)) {
                                     <?php 
                         $sql4 ="SELECT * from  tbltask where Status='Completed'";
                               $query4 = $dbh -> prepare($sql4);
-                              $query4-> bindParam(':eid', $eid, PDO::PARAM_STR);
                               $query4->execute();
                               $results4=$query4->fetchAll(PDO::FETCH_OBJ);
                               $comptask=$query4->rowCount();
