@@ -1,6 +1,6 @@
 <?php 
 // DB credentials.
-define('DB_HOST','sql113.infinityfree.com');
+define('DB_HOST','sql113.infinityfree.com:3306');
 define('DB_USER','if0_36520915');
 define('DB_PASS','MBdrdllEVFx');
 define('DB_NAME','if0_36520915_etmsdb');
