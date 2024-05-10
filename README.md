@@ -9,8 +9,10 @@ Video:
 Repo GitHub: 
 Aplicatie live:
 
-Cloud aplicatie:
-Cloud baza de date:
+Cloud APP & BAZA:
+Cloud API:
+
+
 
 ==========================================
 
@@ -19,6 +21,11 @@ Cloud baza de date:
 Aceasta este o aplicație web destinată gestionării sarcinilor pentru angajații unei firme. Aplicația oferă două interfețe de logare: una pentru administratori și una pentru angajați. Administratorii pot atribui sarcini angajaților, iar angajații pot actualiza stadiul realizării acestor sarcini. De asemenea, aplicația permite generarea de rapoarte pe anumite perioade de timp dorite despre sarcinile completate, facilitând astfel monitorizarea performanței angajaților. 
 
 Aplicatia Web ruleaza live pe doua servicii de cloud diferite gratuite. Serverul Apache pe care ruleaza aplicatia este hostat pe cloud-ul oferit de 000webhost.com si baza de date MYSQL este gazduita pe cloud-ul infinityfree.com
+
+
+[REST-API]
+
+Aplicația utilizeaza API-ul de la https://cataas.com/. Acesta furnizeaza poze cu pisici be baza cerintelor din requestul facut. Spre exemplu dimensiuni diferite, texte pe aceste cu diferite proprietati(font,dimensiune) sau gif-uri in loc de imagini.
 
 
 [Limbajele-si-resursele-utilizate-in-realizarea-aplicatiei]
