@@ -1,9 +1,9 @@
 <?php 
 // DB credentials.<!-- -->
-define('DB_HOST','localhost');
-define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','etmsdb');
+define('DB_HOST','sql113.infinityfree.com');
+define('DB_USER','if0_36520915');
+define('DB_PASS','MBdrdllEVFx');
+define('DB_NAME','if0_36520915_etmsdb');
 // Establish database connection.
 try
 {
