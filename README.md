@@ -5,14 +5,16 @@ Proiect Cloud Computeing SIMPRE ASE 2024
 Autor: Sergiu Andrei Costan
 Aplicatie: Work Task App
 
-Video:
-Repo GitHub: 
-Aplicatie live:
+Video: [https://youtu.be/eh26puUOas8]
+Repo GitHub: [https://github.com/andisergiu/SIMPRE-PROIECT-CC]
+Aplicatie live: [https://simpre-cc-project.online/]
 
-Cloud APP & BAZA:
-Cloud API:
+Cloud APP & BAZA: [https://www.namecheap.com/]
+Cloud API: [https://cataas.com/]
 
-
+Conturi demo:
+Administrator: admin - Parola: qwerty123
+Angajat: NXT0030 - Parola: qwerty123
 
 ==========================================
 
@@ -20,7 +22,7 @@ Cloud API:
 
 Aceasta este o aplicație web destinată gestionării sarcinilor pentru angajații unei firme. Aplicația oferă două interfețe de logare: una pentru administratori și una pentru angajați. Administratorii pot atribui sarcini angajaților, iar angajații pot actualiza stadiul realizării acestor sarcini. De asemenea, aplicația permite generarea de rapoarte pe anumite perioade de timp dorite despre sarcinile completate, facilitând astfel monitorizarea performanței angajaților. 
 
-Aplicatia Web ruleaza live pe doua servicii de cloud diferite gratuite. Serverul Apache pe care ruleaza aplicatia este hostat pe cloud-ul oferit de 000webhost.com si baza de date MYSQL este gazduita pe cloud-ul infinityfree.com
+Aplicatia Web ruleaza live pe doua servicii de cloud diferite. Serverul Apache pe care ruleaza aplicatia este hostat impreuna cu baza de date MYSQL pe gazduirea cloud-ul NameCheap, nu este gratuit insa este impartit astfel are un cost semnificativ mai mic. REST API-ul se afla pe cloud-ul celor de la cataas.com care detin componenta utilizata.
 
 
 [REST-API]
@@ -44,7 +46,7 @@ jQuery folosit pentru manipularea DOM-ului, gestionarea evenimentelor și alte f
 [Instalare-și-Configurare]
 
 Pentru a rula aplicația local, urmați pașii de mai jos:
-1) Clonați repository-ul: (git clone [URL_REPOSITORY]).
+1) Clonați repository-ul: (git clone [https://github.com/andisergiu/SIMPRE-PROIECT-CC]).
 2) Configurați serverul web și PHP conform indicațiilor din secțiunea anterioară pentru a putea utiliza aplicatia (wamp/xamp local server).
 3) Importati baza de date din fisierul etmsdb.sql cu ajutorul phpmyadmin.
 
